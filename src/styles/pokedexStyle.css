@@ -1,0 +1,59 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #c5e2f0 , #f2c2e8);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .poke-infos {
+    width: 300px;
+    height: 300px;
+
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .poke-infos h3{
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+
+.container .poke-infos .circle {
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .poke-infos .circle img {
+    width: 190px;
+    height: 190px;
+}
+
+
+.container .poke-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .poke-type p {
+    font-size: small;
+    margin: 10px;
+}
